@@ -1,0 +1,17 @@
+@import "variables";
+@import 'bootstrap/bootstrap';
+
+@media (max-width: 728px) {
+    #header h4, p{
+      font-size: 1.5rem;
+    }
+    #hm, #jumbo, #allPosts {
+        font-size: 1.5rem;
+    }
+
+        .jumbotron {
+          width:100%;
+          
+        }
+      
+  }

@@ -1,0 +1,25 @@
+---
+layout: default
+title: home
+---
+
+
+  {% for post in site.posts %}
+ <div class="container">
+
+  <div class="row justify-content-center">
+    <div class="col-md-8 ">
+      <h2> <a href="{{ post.url | prepend: site.baseurl}}">{{ post.title }}</a></h2>
+      <span>{{ post.date | date_to_string }}</span>
+      <br>
+      {{ post.description}}
+      <br>
+      <a href="{{ post.url | prepend: site.baseurl}}" class="stretched-link">Continue reading</a>
+      <br>
+  <hr>
+  <hr>
+    </div>
+  </div>
+  
+ </div>
+  {% endfor %}

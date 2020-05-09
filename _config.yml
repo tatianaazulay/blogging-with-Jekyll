@@ -1,0 +1,5 @@
+name: blog
+markdown: kramdown
+
+url: tatianaazulay.github.io
+baseurl: /blogging-with-Jekyll
