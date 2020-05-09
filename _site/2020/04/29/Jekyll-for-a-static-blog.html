@@ -1,0 +1,142 @@
+<!doctype html>
+<html>
+<head>
+  <title></title>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="/blogging-with-Jekyll/assets/css/styles.css">
+  <style>
+  
+  </style>
+</head>
+
+<body>
+  <header>
+  <section id="header">
+    <div class="collapse bg-light" id="navbarHeader">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 col-md-7 py-4">
+            <h4 class="text-white">About</h4>
+            <p class="text-muted">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
+          </div>
+          <div class="col-sm-4 offset-md-1 py-4">
+            <h4 class="text-white">Get in Touch!</h4>
+            <ul class="list-unstyled">
+              <li><a href="https://github.com/tatianaazulay" target="_blank"class="text-white">Github</a></li>
+              <li><a href="mailto:tania142857@gmail.com" class="text-white">Email me</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navbar navbar-light bg-light shadow-sm">
+      <div class="container d-flex justify-content-between">
+        <a href="/blogging-with-Jekyll/" class="navbar-brand d-flex align-items-center">
+          <strong>HOME</strong>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+  <section id="jumbo" class="jumbotron text-center">
+    <div class="container">
+      <h1>Jekyll for a static blog</h1>
+      <span class="postDate">Apr 29, 2020</span>
+      <span>Written by tatiana_azulay</span>
+      <p class="lead text-muted">the process of deciding on which blogging software to use, how to set it up and design with Bootstrap</p>
+    </div>
+  </section>
+</section>
+  <div class="container">
+
+    <div class="row justify-content-center">
+      <div class="col-lg-10 ">
+     
+        <h3>What?</h3>
+<p>Blog</p>
+
+<h3>How?</h3>
+<p>Jekyll site generator and Bootstrap CSS framework</p>
+<h3>Why?</h3>
+<p>To share some thoughts and lessons I have learned throughout my software development studies.<br /></p>
+<p>Choosing appropriate development tools is one of the crucial steps before starting any project. Lack of experience and plenty of choices can make this process quite puzzling. Here’re my personal motivations for using Jekyll as a building software of this blog. I took into consideration development time and ease of deployment, learning curve and aimed functionality and appearance.<br />
+Jekyll is a static blog-aware site generator which has a big community and plenty of templates.  On a local computer it is installed as a ruby gem and can be served through the local host. It’s simple and efficient. There’s also a github-pages gem which allows to deploy Jekyll and its dependencies on GitHub Pages. Great!</p>
+<p>However, Jekyll is not really a blogging software. It is a static site generator and includes only content which can be loaded from a file (html, css, js, etc). Due to its static nature, there is no native solution in Jekyll for adding comments or any other dynamic content which, however, can be implemented with the third-party systems.</p>
+<h3>Jekyll vs WordPress </h3>
+<p>At some point I was looking at another great software for starting a blog such as WordPress- an open source software written in PHP and paired with a MySQL. Like Drupal and Joomla WordPress is a content management system which serves the content dynamically: retrieves the requested content from the database, applies templates, plugins, etc. and finally generates an html page. Dynamic sites can run server scripts and change content on the fly, including blog comments. However, they have some downsides as well. The main issues are security (interaction with the database makes them more vulnerable) and lower speed. I would compare static sites to quick premade meals in a supermarket and dynamic sites to meals in a restaurant which are being prepared after the order is placed.</p>
+<p>While both static and dynamic sites have their strengths and weaknesses, I made my choice toward static blogging based on the criteria which were important for this project: fast and easy implementation and deployment, basic functionality and quickly customizable appearance.
+The inability to serve dynamic content while using Jekyll for my static blog was compensated by multiple Jekyll advantages.
+</p>
+<h3>Ease of implementation </h3>
+<p>Due to its static nature Jekyll can be easily set up. No dabase required. 
+The main steps of Jekyll blog set-up are the following:<br />
+Prerequisites: Jekyll and ruby needs to be installed.
+Inside the project folder create Gemfile and index.html</p>
+<p><img src="/blogging-with-Jekyll/images/1.png" alt="Responsive image" class="img-thumbnail mw-50" />
+<img src="/blogging-with-Jekyll/images/2.png" alt="Responsive image" class="img-thumbnail mw-50" /></p>
+<p><strong>$ bundle<br />
+$ jekyll serve</strong></p>
+<p><img src="/blogging-with-Jekyll/images/3.png" alt="Responsive image" class="img-fluid" /></p>
+
+<p>The directory needs to be organized in a way jekyll expects.
+So the following folders needs to be created:<br />
+<a href="https://jekyllrb.com/docs/layouts/" target="_blank">“_layouts”</a> which will hold templates for similar pages with different content,<br />
+<a href="https://jekyllrb.com/docs/includes/" target="_blank">“_includes”</a> to create reusable components,<br />
+<a href="https://jekyllrb.com/docs/datafiles/" target="_blank">"_data”</a>to include a yml file to specify configuration options,<br />
+“_posts” which will hold blog posts<br />
+"_sass" and <a href="https://jekyllrb.com/docs/assets/" target="_blank">"assets"</a> to hold cscc files </p>
+<p>Now our folder looks like this</p>
+<p><img src="/blogging-with-Jekyll/images/4.png" alt="Responsive image" class="img-fluid" /></p>
+<p>Jekyll uses <a href="https://shopify.github.io/liquid/" target="_blank">Liquid template language</a> so we’ll use 
+<img src="/blogging-with-Jekyll/images/11.png" alt="Responsive image" class="img-fluid" />
+for our default.html layout.
+Reusable components from _includes folder will be referenced as for example
+<img src="/blogging-with-Jekyll/images/22.png" alt="Responsive image" class="img-fluid" />
+<br />
+In the page’s <a href="https://jekyllrb.com/docs/front-matter/" target="_blank">front matter</a> we specify layout, title, permalink.</p>
+<p><br />
+<img src="/blogging-with-Jekyll/images/55.png" alt="Responsive image" class="img-fluid" /></p>
+
+<p>$ jekyll new post Post#1 
+will automatically create a post with the title Post#1</p>
+
+<h3>Bootstrap for a better look</h3>
+<p>Jekyll community provides plenty of design themes which can be downloaded or installed as gems. However, I decided to integrate bootstrap into Jekyll project and use favorite bootstrap elements to get the desired appearance of the blog.<br />
+By default Jekyll looks for sass files in _sass folder. So we need to create  _sass folder in our main directory and import the bootstrap scss there. <br />
+In _variables.scss we can overwrite bootstrap variables to customize the site and in _main.scss we need to import variables before bootstrap:<br />
+@import "variables";<br />
+@import 'bootstrap/bootstrap';<br />
+Under /assets/css/  we create styles.scss file for adding pure css styles for the blog.</p>
+
+<h3>Conclusion<h3>
+Jekyll provides plenty of tools to build a functional static blog. 
+As Jekyll builds static websites from dynamic components it is also a great practice to use templates, 
+markdown,partials etc.
+ 
+</h3></h3>
+
+      
+        <br>
+        
+      </div>
+    </div>
+    
+   </div>
+  <footer class="footer text-right">
+    <div class="container">
+    <p><i class="fas fa-thumbs-up fa-2x"></i></p>
+    <p>
+      <a href="#" class= "back">Back to top</a>
+    </p>
+    </div>
+  </footer>
+</body>
+
+</html>
