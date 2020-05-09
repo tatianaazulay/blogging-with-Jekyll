@@ -30,24 +30,18 @@ baseurl: [REPO NAME]</strong></p>
 
 <img src="{{site.baseurl}}/images/yml.png" alt="" class="img-fluid" alt="Responsive image"/>
 <p>
-<<<<<<< HEAD
 As we set baseurl: /Jekyll-blog-with-Bootstrap, Jekyll considers /Jekyll-blog-with-Bootstrap/ as the root of the blog and will serve it locally at <br>http://localhost:4000//Jekyll-blog-with-Bootstrap / <br>
-=======
 As we set baseurl: /Jekyll-blog-with-Bootstrap, Jekyll considers /Jekyll-blog-with-Bootstrap/ as the root of the blog and will serve it locally at http://localhost:4000//Jekyll-blog-with-Bootstrap / <br>
->>>>>>> gh-pages
 Now url and baseurl keys can be used for handling url paths inside the blog.
 </p>
 <p>
 As Jekyll uses Liquid markup, so we need to use double curly braces to output content of our keys. We use double curly braces to reference info which is passed to the html.<br>
-<<<<<<< HEAD
 Thus,to access styles.css file which is located in css folder under assets directory we need to prepend baseurl to its relative path <br><strong>href="{{'/assets/css/styles.css' | prepend: site.baseurl }}".</strong> We can also write it this way: 
 <strong>href="{{ site.baseurl }}/assets/css/styles.css"</strong>
 The result link will be <br><strong>https://tatianaazulay.github.io/Jekyll-blog-with-Bootstrap/</strong>
-=======
 Thus,to access styles.css file which is located in css folder under assets directory we need to prepend baseurl to its relative path <strong>href="{{'/assets/css/styles.css' | prepend: site.baseurl }}".</strong> We can also write it this way: 
 <strong>href="{{ site.baseurl }}/assets/css/styles.css"</strong>
 The result link will be <strong>https://tatianaazulay.github.io/Jekyll-blog-with-Bootstrap/</strong>
->>>>>>> gh-pages
 </p>
 <h3>Conclusion<h3>
 Instead of using hard code links in the blog and write them in the source code, we implemented soft code links.<br>
