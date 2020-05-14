@@ -16,5 +16,5 @@ author: tatiana_azulay
 </ul>
 <p>but phases of the build cycle depend on the type of the build and on its complexity, as, for example, large and complex software requires longer and more complicated builds. All the steps of the build are described in build files, which are called also configuration files or jobs. A popular build file developed in 1970s was the Makefile, a classic Unix build tool.</p>
 
-<p>Automated build process is the core element of the continuous integration, a development practice which aims to trigger the automated build and testing processes after each code change commit.</p>
+<p><a href="https://en.wikipedia.org/wiki/List_of_build_automation_software" target="_blank">Automated build process</a> is the core element of the continuous integration, a development practice which aims to trigger the automated build and testing processes after each code change commit.</p>
 

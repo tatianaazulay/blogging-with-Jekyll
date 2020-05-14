@@ -38,9 +38,8 @@ So the following folders needs to be created:<br>
 "_sass" and <a href="https://jekyllrb.com/docs/assets/" target="_blank">"assets"</a> to hold cscc files </p>
 <p>Now our folder looks like this</p>
 <img src="{{'/images/4.png'| prepend: site.baseurl}}" alt="" class="img-fluid" alt="Responsive image"/>
-<p>Jekyll uses <a href="https://shopify.github.io/liquid/" target="_blank">Liquid template language</a> so we’ll use 
-<img src="{{'/images/11.png'| prepend: site.baseurl}}" alt="" class="img-fluid" alt="Responsive image"/>
-for our default.html layout.
+<p>Jekyll uses <a href="https://shopify.github.io/liquid/" target="_blank">Liquid template language</a> so we’ll use the following syntax to parse, for example, the title of the page to our default.html layout.
+<img src="{{'/images/11.png'| prepend: site.baseurl}}" alt="" class="img-fluid" alt="Responsive image"/><br>
 Reusable components from _includes folder will be referenced as for example
 <img src="{{'/images/22.png'| prepend: site.baseurl}}" alt="" class="img-fluid" alt="Responsive image"/>
 <br>

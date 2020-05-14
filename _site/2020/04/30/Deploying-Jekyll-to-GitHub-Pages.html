@@ -75,7 +75,8 @@ For that you create a project repo on GitHub, push all your project files to the
 <li>The value can be a scalar (string or number), map or a sequence.</li>
 <li> Sequences indicate each entry with a dash and space ( “- ”).</li>
 </ul>
-<p>See the full <a href="https://yaml.org/spec/1.2/spec.html" target="_blank">YAML</a> specification for more information.</p>
+<p>See the full <strong><a href="https://yaml.org/spec/1.2/spec.html" target="_blank">YAML</a> 
+</strong>specification for more information.</p>
 
 <p>Jekyll looks for .yml or .json files,  another data serialization language, in _data folder under the main directory. </p>
 <p>According to the described above Yaml syntax we should specify the following in our _config.yml:<br />
@@ -84,24 +85,18 @@ baseurl: [REPO NAME]</strong></p>
 
 <p><img src="/blogging-with-Jekyll/images/yml.png" alt="Responsive image" class="img-fluid" /></p>
 <p>
-&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
 As we set baseurl: /Jekyll-blog-with-Bootstrap, Jekyll considers /Jekyll-blog-with-Bootstrap/ as the root of the blog and will serve it locally at <br />http://localhost:4000//Jekyll-blog-with-Bootstrap / <br />
-=======
 As we set baseurl: /Jekyll-blog-with-Bootstrap, Jekyll considers /Jekyll-blog-with-Bootstrap/ as the root of the blog and will serve it locally at http://localhost:4000//Jekyll-blog-with-Bootstrap / <br />
-&gt;&gt;&gt;&gt;&gt;&gt;&gt; gh-pages
 Now url and baseurl keys can be used for handling url paths inside the blog.
 </p>
 <p>
 As Jekyll uses Liquid markup, so we need to use double curly braces to output content of our keys. We use double curly braces to reference info which is passed to the html.<br />
-&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
 Thus,to access styles.css file which is located in css folder under assets directory we need to prepend baseurl to its relative path <br /><strong>href="/blogging-with-Jekyll/assets/css/styles.css".</strong> We can also write it this way: 
 <strong>href="/blogging-with-Jekyll/assets/css/styles.css"</strong>
 The result link will be <br /><strong>https://tatianaazulay.github.io/Jekyll-blog-with-Bootstrap/</strong>
-=======
 Thus,to access styles.css file which is located in css folder under assets directory we need to prepend baseurl to its relative path <strong>href="/blogging-with-Jekyll/assets/css/styles.css".</strong> We can also write it this way: 
 <strong>href="/blogging-with-Jekyll/assets/css/styles.css"</strong>
 The result link will be <strong>https://tatianaazulay.github.io/Jekyll-blog-with-Bootstrap/</strong>
-&gt;&gt;&gt;&gt;&gt;&gt;&gt; gh-pages
 </p>
 <h3>Conclusion<h3>
 Instead of using hard code links in the blog and write them in the source code, we implemented soft code links.<br />

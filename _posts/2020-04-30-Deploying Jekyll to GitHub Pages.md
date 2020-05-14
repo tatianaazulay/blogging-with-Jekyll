@@ -21,7 +21,8 @@ For that you create a project repo on GitHub, push all your project files to the
 <li>The value can be a scalar (string or number), map or a sequence.</li>
 <li> Sequences indicate each entry with a dash and space ( “- ”).</li>
 </ul>
-<p>See the full <a href="https://yaml.org/spec/1.2/spec.html" target="_blank">YAML</a> specification for more information.</p>
+<p>See the full <strong><a href="https://yaml.org/spec/1.2/spec.html" target="_blank">YAML</a> 
+</strong>specification for more information.</p>
 
 <p>Jekyll looks for .yml or .json files,  another data serialization language, in _data folder under the main directory. </p>
 <p>According to the described above Yaml syntax we should specify the following in our _config.yml:<br>
