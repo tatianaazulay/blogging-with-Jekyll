@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/blogging-with-Jekyll/2017/01/10/JS-EVENT-LISTENERS.html</loc>
-<lastmod>2017-01-10T00:00:00-05:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/blogging-with-Jekyll/2017/01/10/post-copy-4.html</loc>
-<lastmod>2017-01-10T00:00:00-05:00</lastmod>
-</url>
-<url>
 <loc>http://localhost:4000/blogging-with-Jekyll/2020/04/29/Jekyll-for-a-static-blog.html</loc>
 <lastmod>2020-04-29T02:29:00-04:00</lastmod>
 </url>
@@ -21,20 +13,24 @@
 <lastmod>2020-05-01T02:29:00-04:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/blogging-with-Jekyll/2020/05/01/API-and-how-to-design-an-endpoint/html</loc>
-<lastmod>2020-05-01T02:29:00-04:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/blogging-with-Jekyll/2020/05/02/Client-side-web-form-validation.html</loc>
+<loc>http://localhost:4000/blogging-with-Jekyll/2020/05/02/API-and-how-to-design-an-endpoint/html</loc>
 <lastmod>2020-05-02T02:29:00-04:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/blogging-with-Jekyll/2020/05/02/Main-concepts-and-basic-actions-of-GIT-VCS.html</loc>
-<lastmod>2020-05-02T02:29:00-04:00</lastmod>
+<loc>http://localhost:4000/blogging-with-Jekyll/2020/05/03/Client-side-web-form-validation.html</loc>
+<lastmod>2020-05-03T02:29:00-04:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/blogging-with-Jekyll/2020/05/12/What-are-the-differences-between-Java-and-Scheme.html</loc>
+<loc>http://localhost:4000/blogging-with-Jekyll/2020/05/09/Main-concepts-and-basic-actions-of-GIT-VCS.html</loc>
+<lastmod>2020-05-09T02:29:00-04:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/blogging-with-Jekyll/2020/05/12/MVC-pattern-with-Django-framework.html</loc>
 <lastmod>2020-05-12T02:29:00-04:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/blogging-with-Jekyll/2020/05/14/What-are-the-differences-between-Java-and-Scheme.html</loc>
+<lastmod>2020-05-14T02:29:00-04:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/blogging-with-Jekyll/</loc>

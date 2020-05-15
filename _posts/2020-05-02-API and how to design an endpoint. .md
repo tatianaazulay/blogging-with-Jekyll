@@ -1,7 +1,7 @@
 ---
 layout: post
 title: API and how to design an endpoint 
-date: 2020-05-01 02:29 -0400
+date: 2020-05-02 02:29 -0400
 description: "what needs to be considered when designing an API endpoint?"
 author: tatiana_azulay
 ---

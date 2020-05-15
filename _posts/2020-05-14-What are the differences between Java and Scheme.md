@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What are the differences between Java and Scheme
-date: 2020-05-12 02:29 -0400
+date: 2020-05-14 02:29 -0400
 description: " Object vs Procedure"
 author: tatiana_azulay
 ---

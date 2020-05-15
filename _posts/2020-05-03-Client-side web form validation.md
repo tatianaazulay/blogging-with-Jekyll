@@ -2,7 +2,7 @@
 layout: post
 author: tatiana_azulay
 title: Client-side web form validation 
-date: 2020-05-02 02:29 -0400
+date: 2020-05-03 02:29 -0400
 description: "Keep it short, make it easy with jQuery validation plugin"
 author: tatiana_azulay
 ---

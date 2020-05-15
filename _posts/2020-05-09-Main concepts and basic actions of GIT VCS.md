@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Main concepts and basic actions of GIT VCS
-date: 2020-05-02 02:29 -0400
+date: 2020-05-09 02:29 -0400
 description: " a visual guide to GIT popular commands and their functions"
 author: tatiana_azulay
 ---
