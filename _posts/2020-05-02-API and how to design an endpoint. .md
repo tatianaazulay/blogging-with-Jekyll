@@ -7,7 +7,7 @@ author: tatiana_azulay
 ---
 <h3>API and how to design an endpoint </h3>
 <p>Application programming interface (API) is an interface which is used to exchange data between computers without human interference. API describes the ways and rules which can be used for interactions between computers, such as set of classes, structures, methods, functions etc…</p>
-<p>For example, many web apps nowadays allow users to log in with their existing for example Facebook accounts instead of registering new usernames and passwords. This means that a third-party site sends an API request to Facebook login API services to check if the person is already logged in with his/her Facebook account and if not, this third-party app will redirect the user to a Facebook log-in page in order to let Facebook verify the info about the person and share some public data about him.</p>
+<p>For example, many web apps nowadays allow users to log in with their existing, for example, Facebook accounts instead of registering new usernames and passwords. This means that a third-party site sends an API request to Facebook login API services to check if the person is already logged in with his/her Facebook account and if not, this third-party app will redirect the user to a Facebook log-in page in order to let Facebook verify the info about the person and share some public data about him.</p>
 <p>The API request is also called <strong>URL request </strong>as the client is linking to a specific URL on the server which provides an access point. The data which is sent back to the client is called a <strong>response or resource</strong>.</p>
 
 <p>Usually API documentation describes all parts of the API such as:</p>
@@ -32,8 +32,8 @@ A search result set will include matching video, channel, and playlist resources
 <h3>Query parameters</h3>
 <p>An endpoint usually includes <strong>query parameters that define more detailed information</strong> about the representation of the resource the client requested.
 For example, in the above endpoint in the query parameter we specify the date frame of the requested objects asking for videos published after April 28, 2020.
-We’ll get 5 items as a response as this is a default value. According to the documentation youtube API if we want a different number of resource instances, the maxResults parameter can specify the maximum number of items that should be between 0 and 50.</p>
-<p>Some of the parameters are <strong>required parameters</strong>, which should be identified in the documentation.
+We’ll get 5 items as a response as this is a default value. According to the documentation of the youtube API, if we want a different number of resource instances, the maxResults parameter can specify this number which should be between 0 and 50.</p>
+<p>Some of the parameters are <strong>required parameters</strong>, that must be identified in the documentation.
 In the above request: The part parameter is required and specifies a list of one or more search resource properties that the response should include. 
 Failure to include a required parameter in your request will result in 400 error.</p> 
 
