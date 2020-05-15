@@ -10,7 +10,7 @@ author: tatiana_azulay
 <strong>Declarative programming</strong> paradigm focuses on the logic and not on the control flow. In declarative programming we describe how the result should look like but not how it needs to be accomplished.<br />
 <strong>Declarative languages include logic languages (e.g. Prolog), functional languages (e.g. Haskell, Scheme), template-based (XSLT) and database (SQL).<br />
 Imperative languages include scripting languages (Perl, Python, PHP,…) and object-oriented (C++, Java, C#,…)</strong></p>
-Thus, Scheme and Java belong to different programming paradigms.<br />
+Scheme and Java belong to different programming paradigms.<br />
 <h3>So what features are different between those two languages?</h3>
 <table style="width:100%">
   <tr>
